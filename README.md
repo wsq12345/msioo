@@ -2,10 +2,10 @@
 
 > A Vue.js project
 
-# 仿照密斯欧主页做的一个demo
-使用Vue框架
-使用element-ui，制作首页的轮播效果以及登录的表单
-登录功能暂时要配合注册使用，先注册才能登录，信息缓存在sessionStorage中
+## 仿照密斯欧主页做的一个demo
+# 使用Vue框架
+# 使用element-ui，制作首页的轮播效果以及登录的表单
+# 登录功能暂时要配合注册使用，先注册才能登录，信息缓存在sessionStorage中
 
 
 ## Build Setup
