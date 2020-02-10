@@ -6,7 +6,12 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+
+    }
+  }
 }
 </script>
 
@@ -14,6 +19,10 @@ export default {
   *{
     margin: 0;
     padding: 0;
+  }
+  body{
+    width: 100%;
+    height: 100%;
   }
   #app{
     height: 100vh;

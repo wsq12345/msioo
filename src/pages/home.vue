@@ -25,6 +25,21 @@ export default {
     return {
     }
   },
+  methods: {
+    suofang () {
+      var num = 1300// css中固定的网页宽度
+      var oWidth = window.screen.width// 获取当前手机屏幕宽度
+      var rate = oWidth / num// 缩放比例 = 当前手机屏幕宽度/css中固定的网页宽度
+      if (oWidth < 1920) {
+        // eslint-disable-next-line no-global-assign
+        document.getElementsByTagName('meta')[name = 'viewport'].content = 'width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no,width=device-width,height=device-height,initial-scale=' +
+        rate + ',maximum-scale=2.0,user-scalable=no'// 修改meta的属性
+      }
+    }
+  },
+  mounted () {
+    this.suofang()
+  },
   components: {
     headerGuide,
     slider,
@@ -45,6 +60,7 @@ export default {
     }
     .about-wrap{
         text-align: center;
+        margin: 150px 0 150px 0;
     }
     .about-wrap p{
         margin-bottom: 10px;

@@ -60,7 +60,6 @@ export default {
     }
     .footer_icon{
         color: white;
-        opacity: 0.4;
     }
     .footer_icon .logo{
         height: 27px;

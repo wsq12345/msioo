@@ -43,15 +43,25 @@ export default {
 <style scoped>
     .main{
         position: relative;
-        height: 400px;
+        height: 500px;
         overflow: hidden;
         min-width: 1300px;
+        background:  #f5f8fa;
+        margin-bottom: 150px;
     }
     .main .content{
         margin-left: 2rem;
         height: 400px;
         float: left;
         width: 30%;
+    }
+    .main .content h3{
+      font-weight: normal;
+      margin-top: 50px;
+    }
+    .main .content p{
+      opacity: 0.5;
+      margin-top: 10px;
     }
     .main .content a{
         text-decoration: none;

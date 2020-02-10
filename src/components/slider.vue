@@ -1,5 +1,5 @@
 <template>
-  <el-carousel height="30rem" indicator-position="outside">
+  <el-carousel height="40rem" indicator-position="outside">
     <el-carousel-item v-for="pic in pics" :key="pic.index">
       <img :src="pic" />
     </el-carousel-item>
